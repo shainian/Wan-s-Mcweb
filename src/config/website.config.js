@@ -130,8 +130,8 @@ export const websiteConfig = {
   // 背景图片配置
   background: {
     images: [
-      "/backgrounds/desktopWallpaper_2.webp",
-      "/backgrounds/desktopWallpaper_3.webp",
+      "/backgrounds/desktop_1.webp",
+      "/backgrounds/desktop_2.webp",
     ],
     defaultImage: "/backgrounds/default.webp"
   },

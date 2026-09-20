@@ -132,6 +132,12 @@ export const websiteConfig = {
     images: [
       "/backgrounds/desktop_1.webp",
       "/backgrounds/desktop_2.webp",
+      "/backgrounds/desktop_3.webp",
+      "/backgrounds/desktop_4.webp",
+      "/backgrounds/desktop_5.webp",
+      "/backgrounds/desktop_6.webp",
+      "/backgrounds/desktop_7.webp",
+      "/backgrounds/desktop_8.webp",
     ],
     defaultImage: "/backgrounds/default.webp"
   },

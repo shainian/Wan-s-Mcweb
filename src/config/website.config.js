@@ -24,7 +24,7 @@ export const websiteConfig = {
         pageTitle: {
           // 主标题配置（支持打字机效果）
           mainTitle: {
-            texts: ["欢迎来到 晚晚服", "Welcome to DuskCraft"], // 多语言标题数组
+            texts: ["欢迎来到 青茗屿", "Welcome to QingMingYU"], // 多语言标题数组
             typewriter: {
               enabled: true, // 是否启用打字机效果
               speed: 100,    // 打字速度（毫秒）
@@ -40,7 +40,7 @@ export const websiteConfig = {
         name: "相册",
         path: "/gallery",
         icon: "mdi-image",
-        enabled: true,
+        enabled: false,
         // 外链配置：如果external为true，则点击跳转到externalUrl
         external: false, // 是否启用外链模式
         externalUrl: "", // 外链地址（仅在external为true时生效）
@@ -61,13 +61,13 @@ export const websiteConfig = {
         name: "历程",
         path: "/history",
         icon: "mdi-history",
-        enabled: true,
+        enabled: false,
         // 外链配置：如果external为true，则点击跳转到externalUrl
         external: false, // 是否启用外链模式
         externalUrl: "", // 外链地址（仅在external为true时生效）
         pageTitle: {
           mainTitle: {
-            texts: ["晚晚服服历程", "DCS History"],
+            texts: ["青茗屿服历程", "QMY History"],
             typewriter: {
               enabled: true,
               speed: 100,
@@ -82,7 +82,7 @@ export const websiteConfig = {
         name: "排行榜",
         path: "/leaderboard",
         icon: "mdi-trophy",
-        enabled: true,
+        enabled: false,
         // 外链配置：如果external为true，则点击跳转到externalUrl
         external: false, // 是否启用外链模式
         externalUrl: "", // 外链地址（仅在external为true时生效）
@@ -103,7 +103,7 @@ export const websiteConfig = {
         name: "关于",
         path: "/about",
         icon: "mdi-information",
-        enabled: true,
+        enabled: false,
         // 外链配置：如果external为true，则点击跳转到externalUrl
         external: false, // 是否启用外链模式
         externalUrl: "", // 外链地址（仅在external为true时生效）
